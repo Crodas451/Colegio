@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@100&family=Edu+VIC+WA+NT+Beginner&family=Hind:wght@300&family=Montserrat:wght@100&family=Noto+Sans+Mono:wght@300&family=Oswald:wght@300&family=Roboto:ital,wght@0,100;0,500;1,100&display=swap');
+
+:root
+{
+    --barrar: #0C2D48;
+    --fondo: #B1D4E0;
+    --booto: #145DA0;
+    --color: #2E8BC0;
+    --color1: #2B7C85;
+    --color2: #175873;
+    --color3: #87ACA3;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    background: var(--fondo);
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+    font-family: 'Hind', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Noto Sans Mono', monospace;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+img{
+    border: none;
+    border-radius: 10%;
+}
+
+.cuerpo
+{
+    background: var(--barrar);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 85px;
+    padding: 5px 10%;    
+}
+
+.cuerpo .logo
+{
+    cursor: pointer;
+}
+
+.cuerpo .logo img{
+    height: 70px;
+    width: auto;
+    transition: all 0.3s;
+}
+
+.cuerpo .logo img:hover
+{
+    transform: scale(1.2);
+}
+
+.cuerpo .nav
+{
+    list-style: none;
+}
+
+.cuerpo .nav li
+{
+    display: inline-block;
+    padding:  0 20px;
+}
+
+.cuerpo .nav li:hover
+{
+    transform: scale(1.1);
+}
+
+.cuerpo .nav a
+{
+    font-size: 700;
+    color: white;
+    text-decoration: none;
+}
+
+.cuerpo .btn-Salir button
+{
+    font-weight: 700;
+    color: white;
+    padding: 15px 40px;
+    background: var(--booto);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.cuerpo .btn-Salir button:hover{
+    background: var(--color1);
+    transform: scale(1.2);
+}
