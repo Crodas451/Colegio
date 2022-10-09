@@ -6,9 +6,10 @@
     --fondo: #B1D4E0;
     --booto: #145DA0;
     --color: #2E8BC0;
-    --color1: #2B7C85;
+    --color1: #1d7a84;
     --color2: #175873;
     --color3: #87ACA3;
+    --regreso: #EF7C8E;
 }
 
 *{
@@ -99,3 +100,93 @@ img{
     background: var(--color1);
     transform: scale(1.2);
 }
+/*Estilo al boton final Nuevos Registro  o a Crear*/
+.espacio
+{
+    margin: 23px 25px auto;
+}
+.btn-Registro button
+{
+    cursor: pointer;
+    background: var(--barrar);
+    color: white;
+    margin: 15px;
+    padding: 15px;
+    width: 25%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 10px;
+    border: none;
+}
+
+.btn-Registro button:hover
+{
+    background: var(--color1);
+    transform: scale(1.2);
+}
+
+.btn-Registro:hover
+{
+    box-shadow: 11px 7px 21px 8px rgba(0,0,0,0.64);
+-webkit-box-shadow: 11px 7px 21px 8px rgba(0,0,0,0.64);
+-moz-box-shadow: 11px 7px 21px 8px rgba(0,0,0,0.64);
+}
+
+/*estilo de boton final a reGresar*/
+.btn-regresar button
+{
+    cursor: pointer;
+    background: var(--barrar);
+    color: white;
+    padding: 15px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 10px;
+    border: none;
+}
+
+.btn-regresar button:hover
+{
+   color: black;
+    background: var(--regreso);
+    transform: scale(1.2);
+}
+
+.btn-regresar:hover
+{
+    box-shadow: 11px 7px 21px 8px rgba(0,0,0,0.64);
+-webkit-box-shadow: 11px 7px 21px 8px rgba(0,0,0,0.64);
+-moz-box-shadow: 11px 7px 21px 8px rgba(0,0,0,0.64);
+}
+/*dantod estilo al formulario de Registro de materia*/
+.formu
+{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    text-align: center;
+    
+}
+
+input
+{
+    padding: 12px;
+    width: 30%;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    background-color: var(--fondo);
+    border-bottom: 2px solid #0C2D48; 
+}
+
+.lbl
+{
+    text-transform: uppercase;
+    color: var(--color2);
+    margin-left: 35%;
+    display: block;
+    display: flex;
+    margin-top: 10px;
+}
+
