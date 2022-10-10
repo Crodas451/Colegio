@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/pizarra.png" type="image/x-icon">
+    <title>App</title>
+    <link rel="stylesheet" href="../css/site.css">
+</head>
+<body>
+    <header class="cuerpo">
+            <div class="logo">
+                <img src="../img/maestro.png" alt="">
+            </div>
+        <nav>
+            
+            <ul class="nav">
+                <li><a>Alumnos</a></li>
+                <li><a>Empleados</a></li>
+                <li><a>Profesores</a></li>
+            </ul>
+        </nav>
+    </header>
+     <div class="espacio">
+        <a class="btn-Registro" asp-action="Create"> <button>Nuevo Registro</button></a>
+    </div>
+
+    
+     <div class="espacio">
+         <a class="btn-regresar" asp-controller="Home" asp-action="Index">
+            <button>Regresar</button>
+        </a>
+    </div>
+</body>
+</html>
